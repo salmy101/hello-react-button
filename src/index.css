@@ -1,15 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Nunito:wght@300&family=Uchen&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Permanent Marker", sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
-  background-color: #48dbfb;
-  color: white;
+  background-color: #f2f1ee;
+  color: rgb(13, 12, 12);
 }
 
 main {
@@ -19,43 +19,43 @@ main {
   min-width: 500px;
 }
 
-input {
+/* input {
   font-size: 2rem;
-  font-family: "Permanent Marker", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding: 1rem;
   text-align: center;
   margin: 2rem 0;
   width: 100%;
   border: 0;
-}
+} */
 
-button {
-  background-color: #0abde3;
+/* button {
+  background-color: #9da3a5;
   padding: 1rem;
-  font-family: "Permanent Marker", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 2.2rem;
   width: 100%;
   margin: 2rem 0;
   border: 0;
   color: #fff;
-}
+} */
 
-button:hover {
-  background-color: darken(#0abde3, 10%);
+/* button:hover {
+  background-color: darken(#EDDFB3, 10%);
   cursor: pointer;
 }
 
 button:focus,
 input:focus {
   outline: none;
-}
+} */
 
-h1 {
+/* h1 {
   font-size: 3rem;
-  color: #fff;
+  color: rgb(15, 15, 15);
   word-break: break-all;
-}
-
+} */
+/* 
 button, input {
   max-width: 484px;
-}
+} */
