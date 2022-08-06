@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 
 //pages
-import MainPage from "./pages/index";
+import MainPage from "./pages/main";
 import About from "./pages/about";
 import Search from "./pages/search";
 import Match from "./pages/match";
@@ -27,7 +27,6 @@ class App extends Component {
           <Route path="/search" element={<Search />}></Route>
           <Route path="/match" element={<Match />}></Route>
           <Route path="/login" element={<Login />}></Route>
-
         </Routes>
       </Router>
     );
